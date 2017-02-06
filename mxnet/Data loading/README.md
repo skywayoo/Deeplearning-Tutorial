@@ -10,17 +10,12 @@ How to use own images to dataiter
 
 ### mx.io.ImageRecordIter()
 
-`train = mx.io.ImageRecordIter(
-
+```train = mx.io.ImageRecordIter(
   path.imglist =  [list_file],
-  
   path.imgrec     = [rec.file],
-  
   batch.size      = 2,
-  
   data.shape      = c(256,256,3)
-  
-)`
+  )```
 
 ### mx.io.extract()
 
