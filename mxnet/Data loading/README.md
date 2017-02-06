@@ -12,10 +12,12 @@
 * mx.io.CSVIter()
 * mx.io.MNISTIter()
 * mx.io.extract()
+> extract the iterator data
+
+> data = `mx.io.extract(data_iter)[1]`
+
+> labels = `mx.io.extract(data_iter)[2]`
 
 ### Using the Iterator data 
-
-* mx.io.extract()
->``
 
 
