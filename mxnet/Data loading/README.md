@@ -2,7 +2,7 @@
 
 How to use own images to dataiter
 
-1. change direction`cd mxnet/tools/`
+1. change direction `cd mxnet/tools/`
 
 2. create .lst file `python im2rec.py --list=True --recursive=True [list_file] [filepath] ` 
 
