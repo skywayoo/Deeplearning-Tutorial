@@ -8,7 +8,7 @@ How to use own images to dataiter
 
 3. create .rec file `python im2rec.py --resize=256 --quality=90 --num-thread=4 [list_file] [filepath]`    
 
-### mx.io.ImageRecordIter()
+### * mx.io.ImageRecordIter()
 
 ``` 
 train = mx.io.ImageRecordIter(
@@ -19,7 +19,7 @@ train = mx.io.ImageRecordIter(
   ) 
 ```
 
-### mx.io.extract()
+### * mx.io.extract()
 
 extract the iterator data
 
