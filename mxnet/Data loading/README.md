@@ -13,7 +13,7 @@ How to use own images to dataiter
 ``` 
 train = mx.io.ImageRecordIter(
   path.imglist =  [list_file],
-  path.imgrec     = [rec.file],
+  path.imgrec     = [rec_file],
   batch.size      = 2,
   data.shape      = c(256,256,3)
   ) 
