@@ -11,7 +11,7 @@ How to use own images to dataiter
 ### mx.io.ImageRecordIter()
 
 ``` 
-train = mx.io.ImageRecordIter(
+data_iter = mx.io.ImageRecordIter(
   path.imglist =  [list_file],
   path.imgrec     = [rec_file],
   batch.size      = 2,
